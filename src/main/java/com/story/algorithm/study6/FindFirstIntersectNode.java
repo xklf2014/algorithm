@@ -64,7 +64,7 @@ public class FindFirstIntersectNode {
             cur1 = loop1.next;
             while (cur1 != loop1){
                 if (cur1 == loop2){
-                    return loop2;
+                    return loop1;
                 }
                 cur1 = cur1.next;
             }
